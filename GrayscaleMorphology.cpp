@@ -31,6 +31,10 @@ void GrayscaleMorpholgy::morphClosing(Mat &src, Mat &des, Mat &element)
 	morphClosing(temp, des, element);
 }
 
+ /*形态学梯度*/
+ /*
+	边缘得到增强、同质区域的贡献得到抑制的一幅图像，进而产生“类导图”（梯度）的效果。
+ */
  void GrayscaleMorpholgy::morphGradient(Mat &src, Mat &des, short ksize)
  {
 	 if (ksize % 2 == 0)

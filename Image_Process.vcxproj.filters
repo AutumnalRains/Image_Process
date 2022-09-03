@@ -21,9 +21,15 @@
     <ClCompile Include="GrayscaleMorphology.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Morpholgy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="grayscaleMorphology.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Morpholgy.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

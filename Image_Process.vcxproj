@@ -151,9 +151,11 @@
   <ItemGroup>
     <ClCompile Include="control.cpp" />
     <ClCompile Include="GrayscaleMorphology.cpp" />
+    <ClCompile Include="Morpholgy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="grayscaleMorphology.h" />
+    <ClInclude Include="Morpholgy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
